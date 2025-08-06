@@ -1,0 +1,19 @@
+2025-08-06 13:04:54 - model_loader - INFO - Using device: cpu
+2025-08-06 13:04:54 - model_loader - INFO - Loading model from: D:\DS\Project TODO\mail_python\mail_category
+2025-08-06 13:04:57 - model_loader - INFO - Model loaded successfully
+2025-08-06 13:04:57 - uvicorn.error - INFO - Started server process [[36m4992[0m]
+2025-08-06 13:04:57 - uvicorn.error - INFO - Waiting for application startup.
+2025-08-06 13:04:57 - uvicorn.error - INFO - Application startup complete.
+2025-08-06 13:05:04 - server - INFO - Received request from user: user_20250806130116
+2025-08-06 13:05:04 - server - INFO - Interaction: {'timestamp': '2025-08-06T13:05:04.837338', 'user_id': 'user_20250806130116', 'query': 'HI', 'response': {'label': 'Employee Feedback', 'confidence': 0.13394248485565186, 'probabilities': {'Audit Request': 0.0509587898850441, 'Budget Report': 0.05141798034310341, 'Employee Feedback': 0.13394248485565186, 'Financial Analysis': 0.061840128153562546, 'Financial Health': 0.05235511437058449, 'Financial Performance': 0.04549161344766617, 'Financial Projections': 0.05038638040423393, 'Financial Report': 0.08183373510837555, 'Merger Announcement': 0.11277587711811066, 'Preliminary Financial Report': 0.0611836202442646, 'Product Launch': 0.06781507283449173, 'Profit Analysis': 0.05501546710729599, 'Summary Financial Report': 0.04784964770078659, 'Sustainability Initiative': 0.1271340399980545}}}
+2025-08-06 13:05:04 - uvicorn.access - INFO - 127.0.0.1:53044 - "POST /predict HTTP/1.1" 200
+2025-08-06 13:05:06 - server - INFO - Received request from user: user_20250806130116
+2025-08-06 13:05:06 - server - INFO - Interaction: {'timestamp': '2025-08-06T13:05:06.095515', 'user_id': 'user_20250806130116', 'query': 'HI', 'response': {'label': 'Employee Feedback', 'confidence': 0.13394248485565186, 'probabilities': {'Audit Request': 0.0509587898850441, 'Budget Report': 0.05141798034310341, 'Employee Feedback': 0.13394248485565186, 'Financial Analysis': 0.061840128153562546, 'Financial Health': 0.05235511437058449, 'Financial Performance': 0.04549161344766617, 'Financial Projections': 0.05038638040423393, 'Financial Report': 0.08183373510837555, 'Merger Announcement': 0.11277587711811066, 'Preliminary Financial Report': 0.0611836202442646, 'Product Launch': 0.06781507283449173, 'Profit Analysis': 0.05501546710729599, 'Summary Financial Report': 0.04784964770078659, 'Sustainability Initiative': 0.1271340399980545}}}
+2025-08-06 13:05:06 - uvicorn.access - INFO - 127.0.0.1:53047 - "POST /predict HTTP/1.1" 200
+2025-08-06 13:05:06 - server - INFO - Received request from user: user_20250806130116
+2025-08-06 13:05:07 - server - INFO - Interaction: {'timestamp': '2025-08-06T13:05:06.982655', 'user_id': 'user_20250806130116', 'query': 'HI', 'response': {'label': 'Employee Feedback', 'confidence': 0.13394248485565186, 'probabilities': {'Audit Request': 0.0509587898850441, 'Budget Report': 0.05141798034310341, 'Employee Feedback': 0.13394248485565186, 'Financial Analysis': 0.061840128153562546, 'Financial Health': 0.05235511437058449, 'Financial Performance': 0.04549161344766617, 'Financial Projections': 0.05038638040423393, 'Financial Report': 0.08183373510837555, 'Merger Announcement': 0.11277587711811066, 'Preliminary Financial Report': 0.0611836202442646, 'Product Launch': 0.06781507283449173, 'Profit Analysis': 0.05501546710729599, 'Summary Financial Report': 0.04784964770078659, 'Sustainability Initiative': 0.1271340399980545}}}
+2025-08-06 13:05:07 - uvicorn.access - INFO - 127.0.0.1:53048 - "POST /predict HTTP/1.1" 200
+2025-08-06 13:18:47 - uvicorn.error - INFO - Shutting down
+2025-08-06 13:18:47 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-08-06 13:18:47 - uvicorn.error - INFO - Application shutdown complete.
+2025-08-06 13:18:47 - uvicorn.error - INFO - Finished server process [[36m4992[0m]
